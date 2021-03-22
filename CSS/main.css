@@ -1,5 +1,79 @@
+/*! Geral */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Averia Serif Libre', cursive;;
+}
+
+/*! Corpo */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/IMG/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+/*! Bloco Principal */
+
+.dados-da-musica {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.text-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.area-input {
+    font-size: 1.2rem;
+}
+
+.area-input input {
+    width: 150px;
+    height: 25px;
+    margin-bottom: 30px;
+    outline: none;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2.5px solid white;
+    caret-color: white;
+    background-color: transparent;
+}
+
+/*! Botão */
+
+.btn {
+    width: 200px;
+    height: 45px;
+    background-color: teal;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 51, 51);
 }

@@ -81,6 +81,12 @@ main {
     background-color: teal;
 }
 
+/*! Loading */
+
+img {
+    margin-top: 15px;
+}
+
 /*! Caixa das letras */
 
 .box-lyrics {
@@ -101,6 +107,14 @@ main {
     margin-bottom: 28px;
 }
 
+.lyrics {
+    width: auto;
+    height: auto;
+    margin: 0px 105px;
+    margin-bottom: 25px;
+}
+
 #box-lyrics {
-    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }

@@ -22,6 +22,7 @@ form.addEventListener('submit', el => {
  function doSubmit() {
     boxLoading.innerHTML = '';
     title.innerText = '';
+    letra.innerHTML = '';
     caixa.classList.remove('box-lyrics');
     title.style.display = "none";
     letra.style.display = "none";

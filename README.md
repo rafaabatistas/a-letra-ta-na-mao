@@ -4,4 +4,4 @@
 
 ### Acesse o projeto [clicando aqui](https://aletratanamao.netlify.app/)
 
-Obs: Ainda está em fase de testes.
+Obs: ainda está em fase de testes.

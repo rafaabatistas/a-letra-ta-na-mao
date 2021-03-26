@@ -90,7 +90,7 @@ img {
 /*! Caixa das letras */
 
 .box-lyrics {
-    width: 500px;
+    min-width: 500px;
     height: auto;
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -101,6 +101,7 @@ img {
 }
 
 .title {
+    display: block;
     text-align: center;
     color: white;
     font-size: 1.15rem;
@@ -108,13 +109,16 @@ img {
 }
 
 .lyrics {
+    display: block;
     width: auto;
     height: auto;
-    margin: 0px 105px;
+    margin: 0px 30px;
     margin-bottom: 25px;
 }
 
-#box-lyrics {
+#box-loading {
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
 }
